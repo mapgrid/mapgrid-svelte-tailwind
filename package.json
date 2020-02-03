@@ -6,7 +6,7 @@
     "author": "mapgrid <noreply@mapgrid.org>",
     "license": "MIT",
     "devDependencies": {
-        "@fullhuman/postcss-purgecss": "^2.0.5",
+        "@fullhuman/postcss-purgecss": "^2.0.6",
         "@rollup/plugin-commonjs": "^11.0.2",
         "@rollup/plugin-node-resolve": "^7.1.0",
         "eslint": "^5.16.0 || ^6.7.2",
