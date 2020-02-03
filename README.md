@@ -1,1 +1,1 @@
-# mapgrid-svelte-template
+# mapgrid-svelte-tailwind
