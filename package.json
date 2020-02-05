@@ -24,7 +24,7 @@
         "sirv-cli": "^0.4.5",
         "svelte": "^3.18.1",
         "svelte-preprocess": "^3.4.0",
-        "tailwindcss": "^1.1.4"
+        "tailwindcss": "^1.2.0"
     },
     "scripts": {
         "build": "rollup -c",
