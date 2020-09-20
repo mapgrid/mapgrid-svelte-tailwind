@@ -15,7 +15,7 @@
         "eslint-config-prettier": "^6.11.0",
         "eslint-plugin-import": "^2.22.0",
         "jest": "^26.4.2",
-        "postcss": "^8.0.5",
+        "postcss": "^8.0.6",
         "postcss-load-config": "^2.1.1",
         "prettier": "^2.1.2",
         "rollup": "^2.26.11",
