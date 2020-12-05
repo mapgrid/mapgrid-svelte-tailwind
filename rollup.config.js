@@ -19,7 +19,7 @@ export default {
             preprocess: sveltePreprocess({ postcss: true }),
             dev: !prod,
             css: css => {
-                css.write('public/bundle.css')
+                css.write('bundle.css')
             },
         }),
         resolve({
