@@ -17,7 +17,9 @@ export default {
     plugins: [
         svelte({
             preprocess: sveltePreprocess({ postcss: true }),
-            dev: !prod,
+            compilerOptions: {
+                dev: !prod,
+            },
             css: css => {
                 css.write('bundle.css')
             },
