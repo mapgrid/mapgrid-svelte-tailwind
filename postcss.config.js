@@ -4,7 +4,10 @@ const purgecss = require('@fullhuman/postcss-purgecss')({
 
     safelist: [/svelte-/],
 
-    defaultExtractor: content => content.match(/[A-Za-z0-9-_:/]+/g) || [],
+    defaultExtractor: content =>
+        content
+            .match(/[A-Za-z0-9-_:./]+/g)
+            .map(c => (c.startsWith('class:') ? c.substring(6) : c)) || [],
 })
 
 const plugins = [require('tailwindcss'), require('autoprefixer')]
