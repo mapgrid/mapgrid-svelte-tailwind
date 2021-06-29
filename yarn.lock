@@ -3758,10 +3758,10 @@ rollup-plugin-css-only@^3.1.0:
   dependencies:
     "@rollup/pluginutils" "4"
 
-rollup-plugin-livereload@^2.0.2:
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/rollup-plugin-livereload/-/rollup-plugin-livereload-2.0.2.tgz#e4bc179f249b447e6d895cb83b6370c07c7cbfd0"
-  integrity sha512-r/KJ/xlfPaBQyKn8EFN5GB3Rj4CHAAV0MV4sW4fHqLkByTuo8h+SCZ7KYWV4JbyhlRrWDrBNbIriLaAxbOiMeA==
+rollup-plugin-livereload@^2.0.3:
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/rollup-plugin-livereload/-/rollup-plugin-livereload-2.0.3.tgz#82142bbc9a588104fcd11687071c8e7a87779998"
+  integrity sha512-L9HfqPRZrDdh+EC5rfkA/JFmSmZan0XDETfVPyDvFBHS/sneXV6Mw3hp43t4iJDyiIVxRX/XCbEzTqh/dfC2Jw==
   dependencies:
     livereload "^0.9.1"
 
